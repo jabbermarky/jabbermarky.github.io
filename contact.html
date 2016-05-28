@@ -1,0 +1,26 @@
+---
+layout: page
+title: Contact
+menu:  Send a Message
+---
+<p>Contact me by filling in this form.</p>
+<form id="contact-form" action="//formspree.io/mark@marklummus.com" method="post">
+<div class="row uniform">
+    <div class="12u$">
+        <input type="text" name="Name" placeholder="Name" required>
+    </div>
+    <div class="12u$">
+        <input type="email" name="Email" placeholder="Email" required>
+    </div>
+    <div class="12u$">
+        <textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
+    </div>
+    <!-- CONFIG -->
+    <input style="display:none" type="text" name="_gotcha">
+    <input type="hidden" name="_subject" value="New Web Submission">
+    <!-- /CONFIG -->
+    <div class="12u$">
+        <input class="submit" type="submit" value="Send">
+    </div>
+</div>
+</form>
