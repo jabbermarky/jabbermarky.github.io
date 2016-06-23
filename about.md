@@ -2,7 +2,7 @@
 layout: page
 title: My Back Story
 permalink: /about/
-menu: About Me
+xmenu: About Me
 ---
 
 For me, the Lemonade Stand holds a special significance: a lemonade stand helped me get my start in producing Computer Software. 
