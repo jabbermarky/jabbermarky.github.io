@@ -609,6 +609,12 @@ $baseurl: '{{ site.baseurl }}/images';
 					}
 				}
 			}
+
+			img.icon {
+				@include breakpoint(small) {
+					height:60px;
+				}
+			}
 		}
 
 		&.actions {
@@ -1712,6 +1718,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			@include breakpoint(small) {
 				@include padding(5em, 3em);
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))', 'url("#{$baseurl}/mac-small.jpg")'));
 
 				h2 {
 					font-size: 1.25em;
@@ -1806,6 +1813,9 @@ $baseurl: '{{ site.baseurl }}/images';
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
+			@include breakpoint(small) {
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))', 'url("#{$baseurl}/mac-small.jpg")'));
+			}
 		}
 
 		#footer {
@@ -1825,6 +1835,9 @@ $baseurl: '{{ site.baseurl }}/images';
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
+				@include breakpoint(small) {
+					@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))', 'url("#{$baseurl}/mac-small.jpg")'));
+				}
 			}
 
 			#footer {

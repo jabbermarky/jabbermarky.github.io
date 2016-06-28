@@ -9,6 +9,151 @@ layout: default
   <p>{{ page.subtitle }}</p>
   {% endif %}
 </header>
+{% if page.background-image %}
+<!-- update background image style for header -->
+<style id="adaptive_style-inline-css" type="text/css">
+#main > header { 
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+    background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+    background-position: center top;
+    background-size: 100%;
+}
+@media screen and (min-width: 68.75em) {
+    #main > header { 
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+        background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+        background-position: center top;
+    background-size: 100%;
+    }
+}
+</style>
+{% else %}
+<!-- no background image for header -->
+{% endif %}
+{% if page.about %}
+<!-- about company section -->
+<section id="about" class="wrapper style5">
+    <div class="inner">
+        <header class="major align-center">
+            <h2>About {{page.about.company-name}}</h2>
+        </header>
+        {{page.about.company-description | markdownify}}
+    </div>
+</section>
+{% else %}
+<!-- no about company section -->
+{% endif %}
+
+{% if page.brief %}
+<!-- engagement brief section -->
+<section id="brief" class="wrapper style5">
+    <div class="inner">
+        <header class="major align-center">
+            <h2>Engagement Brief</h2>
+        </header>
+        {{page.brief.brief-description | markdownify}}
+        {% for image in page.brief.brief-images %}
+        <div class="image fit">
+            <img src="{{image.name}}" alt="{{image.alt}}">
+        </div>
+        {% endfor %}
+
+    </div>
+</section>
+{% else %}
+<!-- no engagement brief section -->
+{% endif %}
+
+{% if page.approach %}
+<!-- approach section -->
+<section id="approach" class="wrapper style5">
+    <div class="inner">
+        <header class="major align-center">
+            <h2>My Approach</h2>
+        </header>
+        {{page.approach | markdownify}}
+    </div>
+</section>
+{% else %}
+<!-- no approach section -->
+{% endif %}
+
+{% if page.solution %}
+<!-- solution section -->
+<section id="solution" class="wrapper style5">
+    <div class="inner">
+        <header class="major align-center">
+            <h2>The Solution</h2>
+        </header>
+        {{page.solution.solution-description | markdownify}}
+        {% if page.solution.solution-images-description %}
+        {{page.solution.solution-images-description | markdownify}}
+        {% for image in page.solution.solution-images %}
+        <div class="image fit">
+            <img src="{{image.src}}" alt="{{image.alt}}">
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</section>
+{% else %}
+<!-- no solution section -->
+{% endif %}
+
+{% if page.technology %}
+<!-- technology section -->
+<section id="technology" class="wrapper style5">
+    <div class="inner">
+        <header class="major align-center">
+            <h2>Technology</h2>
+        </header>
+        {{page.technology.technology-description | markdownify}}
+        {% if page.technology.technology-logos %}
+        <ul class="icons align-center">
+        {% for logo in page.technology.technology-logos %}
+        <li><img src="{{logo.src}}" alt="{{logo.alt}}" class="icon"></li>
+        {% endfor %}
+        {% endif %}
+        </ul>
+    </div>
+</section>
+{% else %}
+<!-- no technology section -->
+{% endif %}
+
+{% if page.recommendation %}
+<!-- recommendation section -->
+<section id="recommendation" class="wrapper style5 special">
+    <div class="inner">
+    <header class="major align-center">
+        <h2>Client's Remarks</h2>
+    </header>
+        <div class="row">
+            <div class="-2u 8u">
+            {{page.recommendation.recommendation-description | markdownify}}
+            </div>
+        </div>
+    </div>
+</section>
+{% else %}
+<!-- no recommendation section -->
+{% endif %}
+
+{% if page.visit %}
+<!-- visit section -->
+<section id="visit-site" class="wrapper style4 special">
+    <div class="inner">
+        <a href="{{page.visit.url}}" target="_blank" class="button special">Visit {{page.visit.name}} Site</a>
+    </div>
+</section>
+{% else %}
+<!-- no visit section -->
+{% endif %}
+
 {{ content }}
 
 </article>
