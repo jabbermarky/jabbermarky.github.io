@@ -83,7 +83,21 @@ layout: landing
         </div>
     </section>
         <section class="spotlight">
-            <div class="image"><a href="/domino"><img src="images/domino1.png" alt="Domino" /></a></div>
+            <div class="image"><a href="/domino">
+            <!--img src="images/domino1.png" alt="Domino" /-->
+                <picture>
+                    <img
+                    sizes="(max-width: 3500px) 40vw, 1400px"
+                    srcset="
+                    images/domino1_vcnzjf_c_scale,w_320.png 320w,
+                    images/domino1_vcnzjf_c_scale,w_641.png 641w,
+                    images/domino1_vcnzjf_c_scale,w_888.png 888w,
+                    images/domino1_vcnzjf_c_scale,w_1118.png 1118w,
+                    images/domino1_vcnzjf_c_scale,w_1400.png 1400w"
+                    src="images/domino1_vcnzjf_c_scale,w_1400.png"
+                    alt="Domino Dashboard">
+                </picture>
+                </a></div>
             <div class="content">
                 <h3>Domino Solutions<br />
                 Interim CTO</h3>
