@@ -58,7 +58,7 @@ layout: default
         {{page.brief.brief-description | markdownify}}
         {% for image in page.brief.brief-images %}
         <div class="image fit">
-            <img src="{{image.name}}" alt="{{image.alt}}">
+            <img src="{{image.src}}" alt="{{image.alt}}">
         </div>
         {% endfor %}
 
