@@ -12,11 +12,11 @@ url: "http://marklummus.com" # the base hostname & protocol for your site
 github_username:  jabbermarky
 timezone: America/New_York
 social:
-  #twitter: https://twitter.com/marklummus
+  twitter: https://twitter.com/marklummus
   #github: https://github.com/<username>
   linkedin-square: https://linkedin.com/in/marklummus
   #facebook-official: https://facebook.com/<username>
-  #google-plus-square: https://plus.google.com/u/0/+<username>
+  google-plus-square: https://plus.google.com/u/0/+marklummus
   email: /contact/
   #flickr:
   #instagram:
@@ -54,5 +54,5 @@ social:
 
 # Build settings
 markdown: kramdown
-#sass:
-#  style: compressed
+sass:
+  style: compressed

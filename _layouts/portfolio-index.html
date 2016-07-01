@@ -1,0 +1,134 @@
+---
+layout: landing
+---
+<article id="main">
+    <header>
+        <h2>{{ page.title }}</h2> {% if page.subtitle %}
+        <p>{{ page.subtitle }}</p>
+        {% endif %}
+    </header>
+    {% if page.background-image %}
+    <!-- update background image style for header -->
+    <style id="adaptive_style-inline-css" type="text/css">
+    #main > header {
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("{{ page.background-image }}");
+        background-image: -webkit-linear-gradient(top,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)),
+        url("{{ page.background-image }}");
+        background-image: -ms-linear-gradient(top,
+        rgba(0,
+        0,
+        0,
+        0.6),
+        rgba(0,
+        0,
+        0,
+        0.6)),
+        url("{{ page.background-image }}");
+        background-image: linear-gradient(top,
+        rgba(0,
+        0,
+        0,
+        0.6),
+        rgba(0,
+        0,
+        0,
+        0.6)),
+        url("{{ page.background-image }}");
+        background-position: center top;
+        background-size: 100%;
+    }
+    
+    @media screen and (min-width: 68.75em) {
+        #main > header {
+            background-image: -moz-linear-gradient(top,
+            rgba(0,
+            0,
+            0,
+            0.6),
+            rgba(0,
+            0,
+            0,
+            0.6)),
+            url("{{ page.background-image }}");
+            background-image: -webkit-linear-gradient(top,
+            rgba(0,
+            0,
+            0,
+            0.6),
+            rgba(0,
+            0,
+            0,
+            0.6)),
+            url("{{ page.background-image }}");
+            background-image: -ms-linear-gradient(top,
+            rgba(0,
+            0,
+            0,
+            0.6),
+            rgba(0,
+            0,
+            0,
+            0.6)),
+            url("{{ page.background-image }}");
+            background-image: linear-gradient(top,
+            rgba(0,
+            0,
+            0,
+            0.6),
+            rgba(0,
+            0,
+            0,
+            0.6)),
+            url("{{ page.background-image }}");
+            background-position: center top;
+            background-size: 100%;
+        }
+    }
+    </style>
+    {% else %}
+    <!-- no background image for header -->
+    {% endif %} 
+    {% if page.entries %}
+    <!-- entries section -->
+    <section class="wrapper style2">
+        <div class="inner">
+            <header class="major align-center">
+                <h2>Portfolio</h2>
+            </header>
+    {% for entry in page.entries %}
+            <section class="spotlight">
+            <div class="content">
+                <a href="{{entry.entry-page}}">
+                <h2>{{entry.entry-name}}</h2>
+                <p>{{entry.entry-description | markdownify}}</p>
+                </a>
+            </div>
+                    <div class="image">
+                        <a href="{{entry.entry-page}}">
+                            {{entry.entry-picture}}
+                        </a>
+                    </div>
+            </section>
+        {% endfor %}
+        </div>
+    </section>
+    {% else %}
+    <!-- no entries section -->
+    {% endif %}
+    <!-- CTA -->
+    <section id="cta" class="wrapper style4">
+        <div class="inner">
+            <header>
+                <h2>Let's Talk</h2>
+                <p>Have a project in mind? Got a question about outsourcing? Let's talk. Schedule a free 30 minute consultation call with me.</p>
+            </header>
+            <ul class="actions vertical">
+                <li><a href="calendly.html" class="button xfit special">Schedule a Call</a></li>
+                <li><a href="contact.html" class="button xfit">Send a Message</a></li>
+            </ul>
+        </div>
+    </section>
+</article>
