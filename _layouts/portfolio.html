@@ -53,7 +53,7 @@ layout: default
 <section class="wrapper style5">
     <div class="inner">
         <header class="major align-center">
-            <h2>Engagement Brief</h2>
+            <h2>Project Brief</h2>
         </header>
         {{page.brief.brief-description | markdownify}}
         {% for image in page.brief.brief-images %}
@@ -73,7 +73,7 @@ layout: default
 <section class="wrapper style5">
     <div class="inner">
         <header class="major align-center">
-            <h2>My Approach</h2>
+            <h2>Approach</h2>
         </header>
         {{page.approach | markdownify}}
     </div>
@@ -87,7 +87,7 @@ layout: default
 <section class="wrapper style5">
     <div class="inner">
         <header class="major align-center">
-            <h2>The Solution</h2>
+            <h2>Solution</h2>
         </header>
         {{page.solution.solution-description | markdownify}}
         {% if page.solution.solution-images-description %}
@@ -130,7 +130,11 @@ layout: default
 <section class="wrapper style5 special">
     <div class="inner">
     <header class="major align-center">
+    {% if page.recommendation.recommendation-header %}
+        <h2>{{page.recommendation.recommendation-header}}</h2>
+    {% else %}
         <h2>Client's Remarks</h2>
+    {% endif %}
     </header>
         <div class="row">
             <div class="-2u 8u">
