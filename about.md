@@ -1,9 +1,27 @@
 ---
 layout: page
-title: My Back Story
+title: About Mark Lummus
 permalink: /about/
-xmenu: About Me
+menu: About
 ---
+
+Mark has been working in the software industry for more than 29 years in a variety of positions, spanning all aspects of producing and marketing software products and services, including product management, software engineering, quality, automation, DevOps, and business development. His strengths intersect with mobile and web technologies.
+
+Mark has produced many types of software products, with distribution channels spanning SaaS, OEM licensing, online sales and hanging on a peg in an electronics store. He has produced software for many different platforms including web, mobile, embedded, and desktop. 
+
+Mark is a seasoned technology leader having managed large teams of software development professions. Mark is also a hands-on developer-manager when needed, and builds and leads teams that incorporate full-time, contractor, local, near-shore and offshore resources spanning the necessary disciplines required to produce a software product or service.
+
+{:.align-center}
+## Mark’s Expertise
+
+*  Launching new software products using Lean Startup techniques
+*  Designing and building complex software applications ranging from mobile products to desktop applications to SaaS web applications
+*  Leading, building and scaling interdisciplinary teams that are distributed globally
+*  Creating force multipliers with outsourcing while protecting intellectual property and core skills
+*  Transforming organizations using Agile development methodologies
+
+{:.align-center}
+## My Back Story
 
 For me, the Lemonade Stand holds a special significance: a lemonade stand helped me get my start in producing Computer Software. 
 
