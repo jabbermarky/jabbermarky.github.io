@@ -11,6 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marklummus.com" # the base hostname & protocol for your site
 github_username:  jabbermarky
 timezone: America/New_York
+include: ["_pages"]
 social:
   twitter: https://twitter.com/marklummus
   #github: https://github.com/<username>

@@ -11,6 +11,8 @@
             {% for my_page in site.pages %}
             {% if my_page.menu %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menu }}</a></li>
+            {% else %}
+            <!-- excluding {{my_page.url}} from menu -->
             {% endif %}
             {% endfor %}
             <!--li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="icon fa-feed"> RSS Feed</a></li-->

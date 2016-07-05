@@ -1,5 +1,6 @@
 ---
 layout: landing
+permalink: /
 ---
 <!-- Banner -->
 <section id="banner">
@@ -38,31 +39,9 @@ layout: landing
         <header class="major align-center">
             <h2>Examples of My Work</h2>
         </header>
-    </div>
-<!--section class="spotlight">
-    <div class="image">
-        <a href="/godeep">
-            <picture>
-                <img 
-                    sizes="(max-width: 1400px) 100vw, 1400px" 
-                    srcset="
-                    images/mac_dmjcbh_c_scale,w_320.jpg 320w,
-                    images/mac_dmjcbh_c_scale,w_734.jpg 734w,
-                    images/mac_dmjcbh_c_scale,w_1031.jpg 1031w,
-                    images/mac_dmjcbh_c_scale,w_1263.jpg 1263w,
-                    images/mac_dmjcbh_c_scale,w_1400.jpg 1400w" 
-                    src="images/mac_dmjcbh_c_scale,w_1400.jpg" alt="">
-            </picture>
-        </a>
-    </div>
-    <div class="content">
-        <h3>Mac</h3>
-        <p>Blah blah blah.</p>
-    </div>
-</section-->
     <section class="spotlight">
         <div class="image"><a href="/godeep">
-            <!--img src="images/godeep - dashboard.png" alt="GoDeep Dashboard" /-->
+            <!--img src="/images/godeep - dashboard.png" alt="GoDeep Dashboard" /-->
             <picture>
                 <img
                 sizes="(max-width: 1300px) 100vw, 1300px"
@@ -72,7 +51,7 @@ layout: landing
                 images/godeep_-_dashboard_zi8ec8_c_scale,w_676.png 676w,
                 images/godeep_-_dashboard_zi8ec8_c_scale,w_814.png 814w,
                 images/godeep_-_dashboard_zi8ec8_c_scale,w_1300.png 1300w"
-                src="images/godeep_-_dashboard_zi8ec8_c_scale,w_1300.png"
+                src="/images/godeep_-_dashboard_zi8ec8_c_scale,w_1300.png"
                 alt="GoDeep Dashboard">
             </picture>
         </a></div>
@@ -84,7 +63,7 @@ layout: landing
     </section>
         <section class="spotlight">
             <div class="image"><a href="/domino">
-            <!--img src="images/domino1.png" alt="Domino" /-->
+            <!--img src="/images/domino1.png" alt="Domino" /-->
                 <picture>
                     <img
                     sizes="(max-width: 3500px) 40vw, 1400px"
@@ -94,7 +73,7 @@ layout: landing
                     images/domino1_vcnzjf_c_scale,w_888.png 888w,
                     images/domino1_vcnzjf_c_scale,w_1118.png 1118w,
                     images/domino1_vcnzjf_c_scale,w_1400.png 1400w"
-                    src="images/domino1_vcnzjf_c_scale,w_1400.png"
+                    src="/images/domino1_vcnzjf_c_scale,w_1400.png"
                     alt="Domino Dashboard">
                 </picture>
                 </a></div>
@@ -104,6 +83,7 @@ layout: landing
                 <p>I served as the fractional/interim CTO for Domino Solutions. A key deliverable of my tenure was in the selection and integration of a Business Intelligence solution into their enterprise marketing platform.</p>
             </div>
         </section>
+    </div>
 </section>
 <!-- Three -->
 <section id="three" class="wrapper style3 special">
@@ -131,16 +111,6 @@ layout: landing
         </ul>
     </div>
 </section>
-<!-- CTA -->
-<section id="cta" class="wrapper style4">
-    <div class="inner">
-        <header>
-            <h2>Let's Talk</h2>
-            <p>Have a project in mind? Got a question about outsourcing? Let's talk. Schedule a free 30 minute consultation call with me.</p>
-        </header>
-        <ul class="actions vertical">
-            <li><a href="calendly.html" class="button xfit special">Schedule a Call</a></li>
-            <li><a href="contact.html" class="button xfit">Send a Message</a></li>
-        </ul>
-    </div>
-</section>
+
+
+{% include cta.html %}

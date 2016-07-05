@@ -2,6 +2,7 @@
 layout: portfolio 
 title: Encapsulon Assessment 
 subtitle: Wren Solutions
+permalink: /assessment/
 background-image: "/images/assessment_Home_vtv0cw_c_scale,w_1517.png"
 about:
     company-name: Wren Solutions
@@ -25,21 +26,21 @@ solution:
 
     solution-images-description: The following screen shots show the richness of the user interface.
     solution-images:
-        -   src: "images/assessment_Home_vtv0cw_c_scale,w_1517.png"
+        -   src: "/images/assessment_Home_vtv0cw_c_scale,w_1517.png"
             alt: Assessment Home
-        -   src: "images/assessment Audit Activity.png"
+        -   src: "/images/assessment Audit Activity.png"
             alt: ""
-        -   src: "images/assessment edit Q3 2011.png"
+        -   src: "/images/assessment edit Q3 2011.png"
             alt: ""
-        -   src: "images/assessment conduct Loss Prevention.png"
+        -   src: "/images/assessment conduct Loss Prevention.png"
             alt: ""
-        -   src: "images/assessment Audit Trends By Business Unit Report.png"
+        -   src: "/images/assessment Audit Trends By Business Unit Report.png"
             alt: ""
 technology:
     technology-description: |
         This project was built in Microsoft Visual Studio.
     technology-logos:
-        -   src:    "images/logo-visualstudio.png" 
+        -   src:    "/images/logo-visualstudio.png" 
             alt:    "Logo"
 recommendation:
     recommendation-header: Remarks

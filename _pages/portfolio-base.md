@@ -9,9 +9,9 @@ about:
         Company description goes here. 
 brief:
     brief-images:
-      - src: "images/<picture>.png"
+      - src: "/images/<picture>.png"
         alt: Alt Text
-      - src: "images/<picture>.png"
+      - src: "/images/<picture>.png"
         alt: Alt Text
     
     brief-description: |
@@ -23,13 +23,13 @@ solution:
 
     solution-images-description: The following screen shots show the richness of the unique user interface.
     solution-images:
-        - src: "images/<picture>.png"
+        - src: "/images/<picture>.png"
           alt: Alt Text
 technology:
     technology-description: |
         We built with some technology...
     technology-logos:
-        -   src:    "images/<logo>.png" 
+        -   src:    "/images/<logo>.png" 
             alt:    "Logo"
 recommendation:
     recommendation-description: |

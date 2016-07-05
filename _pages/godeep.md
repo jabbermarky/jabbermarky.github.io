@@ -2,6 +2,7 @@
 layout: portfolio 
 title: Mobile Responsive Web App for GoDeep Mobile 
 subtitle: GoDeep Mobile LLC
+permalink: /godeep/
 background-image: "/images/godeep - dashboard.png"
 about:
     company-name: GoDeep Mobile
@@ -19,23 +20,23 @@ solution:
         I built a client proof of concept using Ember.js. Then I designed the overall system architecture, hired a team of contract developers, and lead the implementation. We released the V1 product in time for the fall 2015 season. 
     solution-images-description: The following screen shots show the richness of the unique user interface.
     solution-images:
-        - src:  "images/godeep - dashboard.png"
+        - src:  "/images/godeep - dashboard.png"
           alt:  "GoDeep Dashboard"
-        - src:  "images/godeep - grade game.png" 
+        - src:  "/images/godeep - grade game.png" 
           alt:  "GoDeep Grade Game"
-        - src:  "images/godeep - player info.png" 
+        - src:  "/images/godeep - player info.png" 
           alt:  "GoDeep Player Info"
 technology:
     technology-description: |
         We built a RESTful API server with Node.js + Express + LoopBack + redis + PostgreSQL. <br>We built a single page application client with Ember.js.
     technology-logos:
-        -   src:    "images/logo-ember.png" 
+        -   src:    "/images/logo-ember.png" 
             alt:    "Ember Logo"
-        -   src:    "images/logo-nodejs.png"
+        -   src:    "/images/logo-nodejs.png"
             alt:    "NodeJS Logo"
-        -   src:    "images/logo-postgres.gif" 
+        -   src:    "/images/logo-postgres.gif" 
             alt:    "Postgres Logo"
-        -   src:    "images/logo-loopback.png" 
+        -   src:    "/images/logo-loopback.png" 
             alt:    "Loopback Logo"
 recommendation:
     recommendation-description: |
