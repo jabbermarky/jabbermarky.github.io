@@ -5,14 +5,14 @@ permalink: /about/
 menu: About
 ---
 
-Mark has been working in the software industry for more than 29 years in a variety of positions, spanning all aspects of producing and marketing software products and services, including product management, software engineering, quality, automation, DevOps, and business development. His strengths intersect with mobile and web technologies.
+<span class="image left"><img src="/images/mark-lummus.jpg" alt="Mark Lummus" /></span>I have been working in the software industry for more than 29 years in a variety of positions, spanning all aspects of producing and marketing software products and services, including product management, software engineering, quality, automation, DevOps, and business development. My strengths intersect with mobile and web technologies.
 
-Mark has produced many types of software products, with distribution channels spanning SaaS, OEM licensing, online sales and hanging on a peg in an electronics store. He has produced software for many different platforms including web, mobile, embedded, and desktop. 
+I have produced many types of software products, with distribution channels spanning SaaS, OEM licensing, online sales and hanging on a peg in an electronics store. I have produced software for many different platforms including web, mobile, embedded, and desktop. 
 
-Mark is a seasoned technology leader having managed large teams of software development professions. Mark is also a hands-on developer-manager when needed, and builds and leads teams that incorporate full-time, contractor, local, near-shore and offshore resources spanning the necessary disciplines required to produce a software product or service.
+I am a seasoned technology leader having managed large teams of software development professions. I am also a hands-on developer-manager when needed, and can build and lead teams that incorporate full-time, contractor, local, near-shore and offshore resources spanning the necessary disciplines required to produce a software product or service.
 
 {:.align-center}
-## Mark’s Expertise
+## My Expertise
 
 *  Launching new software products using Lean Startup techniques
 *  Designing and building complex software applications ranging from mobile products to desktop applications to SaaS web applications
