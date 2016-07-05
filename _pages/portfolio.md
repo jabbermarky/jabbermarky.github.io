@@ -5,7 +5,7 @@ menu:  Portfolio
 permalink: /portfolio/
 entries:
     -   entry-name: GoDeep Mobile
-        entry-page: /godeep.html
+        entry-page: /godeep
         entry-description: >
             GoDeep Mobile provides performance management tools to coaches of college and professional football teams. 
         entry-picture: |
@@ -22,7 +22,7 @@ entries:
                 alt="GoDeep Dashboard">
             </picture>
     -   entry-name: Domino Solutions
-        entry-page: /domino.html
+        entry-page: /domino
         entry-alt: Domino Dashboard
         entry-description: >
             Domino Solutions develops and markets an enterprise solution called Domino Decisions that is a marketing business intelligence and performance management platform that helps the enterprise achieve smarter, faster marketing. 
@@ -40,7 +40,7 @@ entries:
                 alt="Domino Dashboard">
             </picture>
     -   entry-name: Wren Solutions
-        entry-page: /assessment.html
+        entry-page: /assessment
         entry-alt: Encapsulon Assessment
         entry-description: >
             Wren Solutions provides audit software and other physical security solutions helping Loss Prevention Professionals become heroes in their organizations. 
