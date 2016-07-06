@@ -2,6 +2,7 @@
 layout: portfolio 
 title: Portfolio Customer Title 
 subtitle: Portfolio Customer Subtitle
+sitemap: false
 background-image: "/images/mac-small.png"
 about:
     company-name: company name

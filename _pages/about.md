@@ -5,7 +5,7 @@ permalink: /about/
 menu: About
 ---
 
-<span class="image left"><img src="/images/mark-lummus.jpg" alt="Mark Lummus" /></span>I have been working in the software industry for more than 29 years in a variety of positions, spanning all aspects of producing and marketing software products and services, including product management, software engineering, quality, automation, DevOps, and business development. My strengths intersect with mobile and web technologies.
+<span class="image left"><img src="/images/mark-lummus.jpg" alt="Mark Lummus" /></span>I have been working in the software industry in Atlanta for more than 29 years in a variety of positions, spanning all aspects of producing and marketing software products and services, including product management, software engineering, quality, automation, DevOps, and business development. My strengths intersect with mobile and web technologies.
 
 I have produced many types of software products, with distribution channels spanning SaaS, OEM licensing, online sales and hanging on a peg in an electronics store. I have produced software for many different platforms including web, mobile, embedded, and desktop. 
 

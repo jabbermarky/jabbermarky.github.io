@@ -1,7 +1,7 @@
 ---
 layout: page-no-cta
 title: Contact
-menu:  Send a Message
+menu:  Contact
 permalink: /contact/
 ---
 <p>Contact me by filling in this form.</p>
@@ -25,3 +25,11 @@ permalink: /contact/
     </div>
 </div>
 </form>
+
+Address:
+
+Mark Lummus
+
+1040 W. Marietta Street NW
+
+Atlanta, GA 30318-5218
