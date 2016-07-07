@@ -1,8 +1,8 @@
 ---
 layout: page
-title: The Pitfalls of Outsourcing
-permalink: /outsourcing-pitfalls/
-menu: Outsourcing Pitfalls
+title: Contract Software Development Services
+permalink: /software-development/
+menu: Contract Development
 ---
 
 {:.align-center}
@@ -23,11 +23,18 @@ These stories are common. I talk to entrepreneurs and small business owners ever
 
 <br />
 
-Talk to me about how I use outsourcing strategically; how I am able to deliver marketable software reliably and quickly within a reasonable budget using contracted resources. 
+As a business owner, "failure to launch" is the worst possible outcome. If you don't ship the product, you don't get the revenue. if you don't ship the product, you don't win the customer. If you don't ship the product, you don't build the business.
 
-I will tell you about Mike, who followed my advice and got his version 1 product into the market on time.
+Talk to me about how I build software products. I'll tell you about:
 
-I will tell you about my time at Nokia, where I reduced our device software testing time from 30 days to 2 days.
+ * how I use *Lean Startup* techniques to formulate hypotheses about your target market and then test those hypotheses; 
+ * how I use *Agile Methodologies* to build software iteratively; 
+ * how I use *strategic outsourcing* to deliver marketable software reliably and quickly within a reasonable budget using contracted resources; 
+ * how I avoid *failure to launch*. 
 
-**If you are considering using contract software developers to build your product, then talk to me first. I will help  you build a hybrid team of local and remote developers that will deliver a successful outcome.**
+I can tell you about Mike, who followed my advice and launched his version 1 product into the market on time.
+
+I can tell you about my time at Nokia, where I reduced our device software testing time from 30 days to 2 days.
+
+**If you are considering using contract software developers to build your product, please talk to me first. I will help  you build a hybrid team of local and remote developers that will deliver a successful outcome.**
 

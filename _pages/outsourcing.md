@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Outsourcing Best Practices
-permalink: /outsourcing/
+xpermalink: /outsourcing/
+sitemap: false
 ---
 <header class="xwrapper major align-center">
 <h2>Before</h2>
