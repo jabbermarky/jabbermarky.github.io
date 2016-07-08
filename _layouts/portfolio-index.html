@@ -11,32 +11,10 @@ layout: landing
     <!-- update background image style for header -->
     <style id="adaptive_style-inline-css" type="text/css">
     #main > header {
-        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("{{ page.background-image }}");
-        background-image: -webkit-linear-gradient(top,
-        rgba(0, 0, 0, 0.6),
-        rgba(0, 0, 0, 0.6)),
-        url("{{ page.background-image }}");
-        background-image: -ms-linear-gradient(top,
-        rgba(0,
-        0,
-        0,
-        0.6),
-        rgba(0,
-        0,
-        0,
-        0.6)),
-        url("{{ page.background-image }}");
-        background-image: linear-gradient(top,
-        rgba(0,
-        0,
-        0,
-        0.6),
-        rgba(0,
-        0,
-        0,
-        0.6)),
-        url("{{ page.background-image }}");
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("{{ page.background-image }}");
+        background-image: linear-gradient(top,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("{{ page.background-image }}");
         background-position: center top;
         background-size: 100%;
     }
@@ -91,32 +69,37 @@ layout: landing
     {% else %}
     <!-- no background image for header -->
     {% endif %} 
-    {% if page.entries %}
+
     <!-- entries section -->
     <section class="wrapper style2">
         <div class="inner">
             <header class="major align-center">
                 <h2>Examples of my work</h2>
             </header>
-    {% for entry in page.entries %}
-            <section class="spotlight">
+{% assign sorted_entries = (site.portfolio | sort: 'weight') | reverse %}
+{% for entry in sorted_entries %}
+<!-- portfolio entry begins -->
+        <section class="spotlight">
             <div class="content">
-                <a href="{{entry.entry-page}}">
-                <h2>{{entry.entry-name}}</h2>
-                <p>{{entry.entry-description | markdownify}}</p>
+                <a href="{{entry.permalink}}">
+                <h2>{{entry.company-name}}</h2>
+{% comment %}
+{% endcomment %}
+{% if entry.blurb %}
+                <p>{{entry.blurb | markdownify}}</p>
+{% else %}
+                <p>{{entry.company-description | markdownify}}</p>
+{% endif %}                
                 </a>
             </div>
-                    <div class="image">
-                        <a href="{{entry.entry-page}}">
-                            {{entry.entry-picture}}
-                        </a>
-                    </div>
-            </section>
-        {% endfor %}
+            <div class="image">
+                <a href="{{entry.permalink}}">{{entry.company-picture}}</a>
+            </div>
+        </section>
+<!-- portfolio entry ends -->
+{% endfor %}
         </div>
     </section>
-    {% else %}
-    <!-- no entries section -->
-    {% endif %}
+
 {% include cta.html %}
 </article>

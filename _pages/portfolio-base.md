@@ -1,11 +1,11 @@
 --- 
 layout: portfolio 
-title: Portfolio Customer Title 
-subtitle: Portfolio Customer Subtitle
+title: CollectorDash 
+subtitle: iPhone Application
 sitemap: false
-background-image: "/images/mac-small.png"
+background-image: "/images/mac-small.jpg"
 about:
-    company-name: company name
+    company-name: CollectorDash, Inc.
     company-description: >
         Company description goes here. 
 brief:

@@ -29,36 +29,34 @@ layout: landing
         background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
         background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{{ page.background-image }}");
         background-position: center top;
-    background-size: 100%;
+        background-size: 100%;
     }
 }
 </style>
 {% else %}
 <!-- no background image for header -->
 {% endif %}
-{% if page.about %}
+
 <!-- about company section -->
 <section class="wrapper style5">
     <div class="inner">
         <header class="major align-center">
-            <h2>About {{page.about.company-name}}</h2>
+            <h2>About {{page.company-name}}</h2>
         </header>
-        {{page.about.company-description | markdownify}}
+        {{page.company-description}}
     </div>
-</section>
-{% else %}
-<!-- no about company section -->
-{% endif %}
 
-{% if page.brief %}
+</section>
+
+{% if page.brief-description %}
 <!-- engagement brief section -->
 <section class="wrapper style5">
     <div class="inner">
         <header class="major align-center">
             <h2>Project Brief</h2>
         </header>
-        {{page.brief.brief-description | markdownify}}
-        {% for image in page.brief.brief-images %}
+        {{page.brief-description | markdownify}}
+        {% for image in page.brief-images %}
         <div class="image fit">
             <img src="{{image.src}}" alt="{{image.alt}}">
         </div>
@@ -70,31 +68,17 @@ layout: landing
 <!-- no engagement brief section -->
 {% endif %}
 
-{% if page.approach %}
-<!-- approach section -->
-<section class="wrapper style5">
-    <div class="inner">
-        <header class="major align-center">
-            <h2>Approach</h2>
-        </header>
-        {{page.approach | markdownify}}
-    </div>
-</section>
-{% else %}
-<!-- no approach section -->
-{% endif %}
-
-{% if page.solution %}
+{% if page.solution-description %}
 <!-- solution section -->
 <section class="wrapper style5">
     <div class="inner">
         <header class="major align-center">
             <h2>Solution</h2>
         </header>
-        {{page.solution.solution-description | markdownify}}
-        {% if page.solution.solution-images-description %}
-        {{page.solution.solution-images-description | markdownify}}
-        {% for image in page.solution.solution-images %}
+        {{page.solution-description | markdownify}}
+        {% if page.solution-images-description %}
+        {{page.solution-images-description | markdownify}}
+        {% for image in page.solution-images %}
         <div class="image fit">
             <img src="{{image.src}}" alt="{{image.alt}}">
         </div>
@@ -106,17 +90,17 @@ layout: landing
 <!-- no solution section -->
 {% endif %}
 
-{% if page.technology %}
+{% if page.technology-description %}
 <!-- technology section -->
 <section class="wrapper style5">
     <div class="inner">
         <header class="major align-center">
             <h2>Technology</h2>
         </header>
-        {{page.technology.technology-description | markdownify}}
-        {% if page.technology.technology-logos %}
+        {{page.technology-description | markdownify}}
+        {% if page.technology-logos %}
         <ul class="icons align-center">
-        {% for logo in page.technology.technology-logos %}
+        {% for logo in page.technology-logos %}
         <li><img src="{{logo.src}}" alt="{{logo.alt}}" class="icon"></li>
         {% endfor %}
         {% endif %}
@@ -127,20 +111,20 @@ layout: landing
 <!-- no technology section -->
 {% endif %}
 
-{% if page.recommendation %}
+{% if page.recommendation-description %}
 <!-- recommendation section -->
 <section class="wrapper style5 special">
     <div class="inner">
     <header class="major align-center">
-    {% if page.recommendation.recommendation-header %}
-        <h2>{{page.recommendation.recommendation-header}}</h2>
+    {% if page.recommendation-header %}
+        <h2>{{page.recommendation-header}}</h2>
     {% else %}
         <h2>Client's Remarks</h2>
     {% endif %}
     </header>
         <div class="row">
             <div class="-2u 8u">
-            {{page.recommendation.recommendation-description | markdownify}}
+            {{page.recommendation-description | markdownify}}
             </div>
         </div>
     </div>
@@ -149,11 +133,11 @@ layout: landing
 <!-- no recommendation section -->
 {% endif %}
 
-{% if page.visit %}
+{% if page.visit-url %}
 <!-- visit section -->
 <section class="wrapper style5 special">
     <div class="inner">
-        <a href="{{page.visit.url}}" target="_blank" class="button special">Visit {{page.visit.name}} Site</a>
+        <a href="{{page.visit-url}}" target="_blank" class="button special">Visit {{page.visit-name}} Site</a>
     </div>
 </section>
 {% else %}
