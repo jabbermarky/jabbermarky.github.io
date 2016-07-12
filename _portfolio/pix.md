@@ -1,5 +1,5 @@
 --- 
-published: false
+published: true
 layout: portfolio 
 styles:
     - name:     "/css/lightbox.min.css"
@@ -10,7 +10,7 @@ title: Portfolio Publisher for Photographers
 subtitle: iPixFolio
 permalink: /portfolio/ipixfolio/
 weight: 2010.07
-background-image: "/images/domino1.png"
+xbackground-image: "/images/domino1.png"
 company-name: iPixFolio
 company-description: >
     iPixFolio provided artist portfolio apps for iPhone. 
