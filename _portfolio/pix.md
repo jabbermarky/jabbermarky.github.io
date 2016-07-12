@@ -1,5 +1,5 @@
 --- 
-published: true
+published: false
 layout: portfolio 
 styles:
     - name:     "/css/lightbox.min.css"
