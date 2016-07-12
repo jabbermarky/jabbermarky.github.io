@@ -1,5 +1,5 @@
 --- 
-published: false
+published: true
 
 layout: portfolio 
 styles:
@@ -23,31 +23,31 @@ company-picture: |
 brief-description: |
     I developed a service that publishes an artist's portfolio as a semi-custom iPhone app. I launched several artist’s apps in the iTunes App Store. 
 
-    These screen captures show the web management application. This application is used by the artist to manage a "portfolio in the cloud" - a custom content management system ("CMS") that I wrote to house their virtual portfolio images and data files.
+    These screen captures show the web management application. The artists uploads their art images to this application in the cloud. It's basically a custom content management system ("CMS") that I wrote to house their virtual portfolio images and data files. The iPhone app communicates with this application using a RESTful API to pull down images and artist info to display on the iPhone.
 
     <div class="inner align-center">
-        <a class="example-image-link" href="/images/pix-web-home,full.png" data-lightbox="example-set" data-title="Portfolio Publisher Web App - Home">
+        <a class="lightbox-link" href="/images/pix-web-home,full.png" data-lightbox="example-set" data-title="Portfolio Publisher Web App - Home">
             <img class="example-image" src="/images/pix-web-home,thumb.png" alt=""/>
         </a>
-        <a class="example-image-link" href="/images/pix-web-gallery,full.png" data-lightbox="example-set" data-title="Portfolio Publisher Web App - Gallery">
+        <a class="lightbox-link" href="/images/pix-web-gallery,full.png" data-lightbox="example-set" data-title="Portfolio Publisher Web App - Gallery">
             <img class="example-image" src="/images/pix-web-gallery,thumb.png" alt=""/>
         </a>
     </div>
 
     <br/>
-    These screen captures show the semi-custom iPhone application. This application is used by fans of the artist to see the artist's portfolio, follow their blog, read their tweets, and communicate with the artist.
+    These screen captures show the semi-custom iPhone application. This application is used by fans of the artist to download and view the artist's portfolio, follow their blog, read their tweets, and communicate with the artist. This iPhone app is "semi-custom", meaning that I created one unique version per artist, using their unique identity/brand, so every one is different, but the functionality is the same.
 
     <div class="inner align-center">
-        <a class="example-image-link" href="/images/pix-dw-home,full.png" data-lightbox="example-set" data-title="Portfolio Publisher iPhone App - Home">
+        <a class="lightbox-link" href="/images/pix-dw-home,full.png" data-lightbox="example-set" data-title="Portfolio Publisher iPhone App - Home">
             <img class="example-image" src="/images/pix-dw-home,thumb.png" alt=""/>
         </a>
-        <a class="example-image-link" href="/images/pix-dw-gallery-index,full.png" data-lightbox="example-set" data-title="Portfolio Publisher iPhone App - Gallery">
+        <a class="lightbox-link" href="/images/pix-dw-gallery-index,full.png" data-lightbox="example-set" data-title="Portfolio Publisher iPhone App - Gallery">
             <img class="example-image" src="/images/pix-dw-gallery-index,thumb.png" alt=""/>
         </a>
     </div>
     
 technology-description: |
-    Primary technologies include: Push Notification using Apple Push Notification Service (APNS), Django, Python, PostgreSQL.   
+    Primary technologies for the custom web application include: Push Notification using Apple Push Notification Service (APNS), Django, Python, PostgreSQL. <br>The custom iPhone app was written in Objective-C using Xcode.
 
 
 technology-logos:
@@ -57,4 +57,6 @@ technology-logos:
         alt:    "Ember Logo"
     -   src:    "/images/logo-postgres.gif" 
         alt:    "Postgres Logo"
+    -   src:    "/images/logo-xcode.png"             
+        alt:    "Xcode Logo"
 ---

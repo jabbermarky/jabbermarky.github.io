@@ -53,4 +53,4 @@ I can’t remember which is which, but I and J are variables that represent the 
 
 I’ve never met any of the people responsible for Lemonade Stand – all I can do now is send them my thanks. So here is my sincere thanks and gratitude to the late Steve Jobs, and Steve Wozniack for creating the Apple II, and a big thanks to Bob Jamison who created the original game and Charlie Kellner who made it work on the Apple II. If you know any of these people personally, please tell them I said thanks and that I am forever grateful!
 
-[lemonade-stand]: [https://archive.org/details/Lemonade_Stand_1979_Apple]
+[lemonade-stand]: https://archive.org/details/Lemonade_Stand_1979_Apple/ "Lemonade Stand"

@@ -46,7 +46,7 @@ solution-images:
         alt:  "GoDeep Player Info"
 
 technology-description: |
-    We built a RESTful API server with Node.js + Express + LoopBack + redis + PostgreSQL. <br>We built a single page application client with Ember.js.
+    We built a custom web server that exposed a RESTful API using Node.js + Express + LoopBack + redis + PostgreSQL. <br>We built a custom single page application ("SPA") client with Ember.js.
 
 technology-logos:
     -   src:    "/images/logo-ember.png" 

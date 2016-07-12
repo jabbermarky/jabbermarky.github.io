@@ -37,10 +37,10 @@ brief-description: |
     A mission-critical feature of the product was a set of dashboards that allowed a user to see both projections and actuals of a marketing plan. I did a vendor selection project and reviewed all of business intelligence ("BI") solutions that were available for licensing. I recommended Logi Analytics and the company licensed that technology as the underlying technology to build the application's dashboards. The screen shots below show those dashboards in use.  
 
     <div class="inner align-center">
-        <a class="example-image-link" href="/images/domino1_vcnzjf_c_scale,w_1400.png" data-lightbox="example-set" data-title="Domino Measure Dashboard">
+        <a class="lightbox-link" href="/images/domino1_vcnzjf_c_scale,w_1400.png" data-lightbox="example-set" data-title="Domino Measure Dashboard">
             <img class="example-image" src="/images/domino1_vcnzjf_c_scale,w_320.png" alt=""/>
         </a>
-        <a class="example-image-link" href="/images/domino2_pdnuh4_c_scale,w_1400.png" data-lightbox="example-set" data-title="Domino Projections Dashboard">
+        <a class="lightbox-link" href="/images/domino2_pdnuh4_c_scale,w_1400.png" data-lightbox="example-set" data-title="Domino Projections Dashboard">
             <img class="example-image" src="/images/domino2_pdnuh4_c_scale,w_320.png" alt="" />
         </a>
     </div>
