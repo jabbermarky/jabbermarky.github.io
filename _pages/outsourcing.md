@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Effective Outsourcing
+subtitle: How to Outsource Software Development Successfully
 permalink: /effective-outsourcing/
 sitemap: true
 menu: Effective Outsourcing
 ---
 
-## How to use Outsourcing Effectively
+## What do I need to successfully outsource my custom software development?
 
 If you are new to outsourced software development, then you may be asking yourself how to most effectively use outsourcing to meet your business objectives. The short answer seems to be that outsourcing software development has become less effective and desirable than it used to be, but it can still be useful if you effectively adhere to some best practices and avoid the typical problems associated with outsourcing. More than anything else, this  means making sure you: 
 
@@ -58,6 +59,7 @@ As you can see, there are many risks associated with outsourcing; however it can
 
 This is why I suggest that those business leaders not familiar with outsourcing software development find an experienced outsourcing manager to help them manage the entire process to ensure a successful product outcome.
 
+**If you are considering using contract software developers to build your custom software product, please talk to me first. I will help you build a hybrid team of local and remote developers that will deliver a successful outcome.**
 
 {% comment %}
 <header class="xwrapper major align-center">

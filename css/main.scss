@@ -1670,27 +1670,35 @@ $baseurl: '{{ site.baseurl }}/images';
 			max-width: 45em;
 
 			header {
-				@include vendor('order', '1');
-				padding-right: 3em;
-				width: 70%;
-
-				p {
-					color: inherit;
+				span {	
+					display:inline-block;
+					&.left {
+						width: 70%;
+					}
+					&.right {
+						width: 30%;
+						float:right;
+						padding-left:5em;
+						padding-top:0;
+						padding-bottom:0;
+					}
 				}
 			}
-
 			.actions {
-				@include vendor('order', '2');
+				@include vendor('order', '3');
 				width: 30%;
 			}
 
 			@include breakpoint(medium) {
-				display: block;
+				xdisplay: block;
 				text-align: center;
 
 				header {
 					padding-right: 0;
 					width: 100%;
+					h2 {
+						text-align:left;
+					}
 				}
 
 				.actions {
@@ -1698,6 +1706,22 @@ $baseurl: '{{ site.baseurl }}/images';
 					margin-right: auto;
 					max-width: 20em;
 					width: 100%;
+				}
+
+				header { 
+					span {
+						display:block;
+						&.left {
+							width:100%;
+						}
+						&.right {
+							float:none;
+							width:100%;
+							padding-left:0;
+							padding-top:2em;
+							padding-bottom:2em;
+						}
+					}
 				}
 			}
 
