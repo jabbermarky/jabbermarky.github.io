@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Mark Lummus
+title: About Me
 permalink: /about/
 menu: About
 description: |
