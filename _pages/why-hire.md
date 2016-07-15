@@ -3,6 +3,8 @@ layout: page
 title: Why Hire Me?
 permalink: /why-hire/
 menu: Why Hire Mark?
+description: |
+  Mark Lummus is an Atlanta CTO who provides fractional, interim, or on-demand CTO services. Mark brings focus, experience, and process to building new software applications and building/scaling software development teams. Mark is available to develop custom software for you. Schedule a free consultation today!
 ---
 
 ## I focus on outcomes.

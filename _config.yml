@@ -3,12 +3,12 @@
 
 # Site settings
 title: Mark Lummus
-description: Atlanta Fractional CTO providing on-demand CTO services to non-technical founders and emerging businesses
+subtitle: Atlanta Fractional CTO providing on-demand CTO services to non-technical founders and emerging businesses
 owner: Mark Lummus # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: mark@marklummus.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://marklummus.com" # the base hostname & protocol for your site
+url: "http://www.marklummus.com" # the base hostname & protocol for your site
 github_username:  jabbermarky
 timezone: America/New_York
 include: ["_pages"]
