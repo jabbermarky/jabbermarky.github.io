@@ -29,7 +29,7 @@ permalink: /contact/
             </div>
         </form>
         <h4>Phone</h4>
-        <p><a href="tel:+14049557521">(404) 955-7521</a></p>
+        <p><a href="tel://+14049557521">(404) 955-7521</a></p>
     </div>
     <div class="-1u 5u 12u$(medium)">
         <h4>Service Area</h4>
