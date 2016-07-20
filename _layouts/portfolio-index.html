@@ -66,37 +66,70 @@ layout: landing
         }
     }
     </style>
-    {% else %}
-    <!-- no background image for header -->
     {% endif %} 
 
-    <!-- entries section -->
+    {% if page.intro-description %}
+    <section class="wrapper style1">
+        <div class="inner">
+            {% if page.intro-title %}
+            <header class="major align-center">
+                <h2>{{page.intro-title}}</h2>
+            </header>
+            {% endif %}
+            <p>{{page.intro-description | markdownify}}</p>
+        </div>
+    </section>
+    {% endif %}
     <section class="wrapper style2">
         <div class="inner">
             <header class="major align-center">
+            {% if page.portfolio-title %}
+                <h2>{{page.portfolio-title}}</h2>
+            {% else %}
                 <h2>Examples of my work</h2>
+            {% endif %}
             </header>
 {% assign sorted_entries = (site.portfolio | sort: 'weight') | reverse %}
 {% for entry in sorted_entries %}
-<!-- portfolio entry begins -->
+    {% if page.tag %}
+        {% if entry.tags contains page.tag %}
+        <!-- portfolio entry begins -->
         <section class="spotlight">
             <div class="content">
                 <a href="{{entry.permalink}}">
                 <h2>{{entry.company-name}}</h2>
-{% comment %}
-{% endcomment %}
-{% if entry.blurb %}
+                {% if entry.blurb %}
                 <p>{{entry.blurb | markdownify}}</p>
-{% else %}
+                {% else %}
                 <p>{{entry.company-description | markdownify}}</p>
-{% endif %}                
+                {% endif %}                
                 </a>
             </div>
             <div class="image">
                 <a href="{{entry.permalink}}">{{entry.company-picture}}</a>
             </div>
         </section>
-<!-- portfolio entry ends -->
+        <!-- portfolio entry ends -->
+        {% endif %}
+    {% else %} 
+    <!-- portfolio entry begins -->
+    <section class="spotlight">
+        <div class="content">
+            <a href="{{entry.permalink}}">
+            <h2>{{entry.company-name}}</h2>
+            {% if entry.blurb %}
+            <p>{{entry.blurb | markdownify}}</p>
+            {% else %}
+            <p>{{entry.company-description | markdownify}}</p>
+            {% endif %}                
+            </a>
+        </div>
+        <div class="image">
+            <a href="{{entry.permalink}}">{{entry.company-picture}}</a>
+        </div>
+    </section>
+    <!-- portfolio entry ends -->
+    {% endif %}
 {% endfor %}
         </div>
     </section>

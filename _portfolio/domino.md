@@ -9,10 +9,14 @@ title: Interim CTO for Domino Solutions
 subtitle: Domino Solutions
 permalink: /portfolio/domino/
 weight: 2014.12
+xtags: web
 background-image: "/images/domino1.png"
 company-name: Domino Solutions
 company-description: >
     Domino Solutions develops and markets an enterprise solution called Domino Decisions that is a marketing business intelligence and performance management platform that helps the enterprise achieve smarter, faster marketing. 
+blurb: >
+    For Domino, I served as the Interim CTO. During my 6 month engagement, I helped get their V1 product launch back on schedule, I helped renegotiate some vendors contracts, and ran a vendor selection process to select a Business Intelligence solution. 
+
 company-picture: |
     <picture>
         <img

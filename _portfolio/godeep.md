@@ -5,7 +5,7 @@ subtitle: GoDeep Mobile LLC
 permalink: /portfolio/godeep/
 background-image: "/images/godeep - dashboard.png"
 weight: 2015.07
-
+tags: mobile web api
 company-picture: |
     <picture>
         <img
@@ -24,6 +24,8 @@ company-name: GoDeep Mobile
 
 company-description: >
     GoDeep Mobile provides performance management tools to coaches of college and professional football teams. 
+blurb: >
+    For GoDeep, I lead the development and launch of a mobile-responsive web application. 
 
 brief-description: |
     The client needed a tablet-optimized application that a coach could use to grade a player's performance during a game or practice. The client was not sure which tablets would be used by the coaches, so we needed to support iPads, Android tablets, and Windows Surface tablets. 

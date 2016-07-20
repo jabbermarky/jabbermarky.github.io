@@ -4,15 +4,21 @@ title: Encapsulon Assessment
 subtitle: Wren Solutions
 permalink: /portfolio/assessment/
 weight: 2011.11
+tags: 
+    - mobile
+    - web
+    - api
+
 background-image: "/images/assessment_Home_vtv0cw_c_scale,w_1517.png"
 company-name: Wren Solutions
+
 company-description: >
     Wren Solutions has over 30 years of experience working with many of the largest retailers in the world.  Wren understands the nuances and challenges faced in retail and is uniquely equipped to help solve problems. 
 
     Wren provides audit software and other physical security solutions helping Retail Loss Prevention Professionals become heroes in their retail organizations. 
 
 blurb: >
-    Wren Solutions provides audit software and other physical security solutions helping Loss Prevention Professionals become heroes in their organizations. 
+    For Wren Solutions, I lead the development and launch of a responsive web application for professional retail auditors.
 
 company-picture: |
         <picture>

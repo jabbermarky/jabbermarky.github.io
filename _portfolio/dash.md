@@ -4,6 +4,7 @@ title: CollectorDASH
 subtitle: Custom iPhone Application
 permalink: /portfolio/dash/
 weight: 2013.05
+tags: mobile
 background-image: "/images/mac-small.jpg"
 published: true
 styles:
@@ -17,6 +18,8 @@ company-picture: |
 
 company-description: >
     The CollectorDASH platform enables communities of collectors.  Through integration of social, mobile and ecommerce technologies, DASH engages its collector users through its innovative user experience.  
+blurb: >
+    For CollectorDASH, I built a custom iPhone app that allows CollectorDASH users to interact with their collection on their mobile device.  
 
 brief-description: |
     CollectorDASH provides a sophisticated web application for each collector community that allows a collector to completely manage their collection, including buying, selling and trading collectibles in a marketplace. The web application did not work well on a mobile device. Additionally, one of the problems of adding items to a collection is taking photos of the item.

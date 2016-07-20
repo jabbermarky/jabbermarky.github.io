@@ -11,6 +11,8 @@ title: Portfolio Publisher for Photographers
 subtitle: iPixFolio
 permalink: /portfolio/ipixfolio/
 weight: 2010.07
+tags: mobile web api
+
 xbackground-image: "/images/domino1.png"
 company-name: iPixFolio
 company-description: >
