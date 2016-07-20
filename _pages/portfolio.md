@@ -7,7 +7,7 @@ menu:  Portfolio
 permalink: /portfolio/
 
 intro-title: General Portfolio
-intro-description: >
+intro-description: |
     Shown below are some representative samples of Mark's work that demonstrate his breadth and depth of experience leading the design, development, and launch of sophisticated software applications across many mediums.
 
 portfolio-title: Examples of my Work
