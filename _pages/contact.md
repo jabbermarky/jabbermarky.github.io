@@ -3,6 +3,8 @@ layout: page-no-cta
 title: Contact
 menu:  Contact
 permalink: /contact/
+description: |
+    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. Find out how to contact Mark on this page.
 ---
 <div class="row">
     <div class="6u 12u$(medium)">

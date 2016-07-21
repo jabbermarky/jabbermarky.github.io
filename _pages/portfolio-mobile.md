@@ -2,7 +2,7 @@
 layout: portfolio-index
 title: Mark Lummus - Mobile Application Development
 description: |
-  Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. His portfolio demonstrates the breadth/depth of experience leading the design, development, and launch of sophisticated mobile applications. Mark is available to develop custom mobile apps for you. Schedule a free consultation today!
+  Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. This mobile portfolio demonstrates the breadth/depth of experience leading the design, development, and launch of sophisticated mobile applications. Mark is available to develop custom mobile apps for you. Schedule a free consultation today!
 permalink: /mobile-app-development/
 
 tag: mobile

@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 menu: About
 description: |
-  Mark Lummus is an Atlanta CTO who provides fractional, interim, or on-demand CTO services. Mark has been involved with commercial software for 30 years. Mark is available to develop custom software for you. Schedule a free consultation today!
+  Mark Lummus is an Atlanta CTO who provides fractional, interim, or on-demand CTO services. Learn more about Mark and his 30 years of commercial software development experience. Mark is available to develop custom software for you. Schedule a free consultation today!
 ---
 
 <span class="image left"><img src="/images/mark-lummus.jpg" alt="Mark Lummus" /></span>I have been working in the software industry in Atlanta for more than 29 years in a variety of positions, spanning all aspects of producing and marketing software products and services, including product management, software engineering, quality, automation, DevOps, and business development. My strengths intersect with mobile and web technologies.

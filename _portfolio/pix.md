@@ -10,6 +10,9 @@ scripts:
 title: Portfolio Publisher for Photographers 
 subtitle: iPixFolio
 permalink: /portfolio/ipixfolio/
+description: 
+    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. Mark developed a service that publishes an artist's portfolio as a semi-custom iPhone app and launched several artist’s apps in the iTunes App Store. 
+ 
 weight: 2010.07
 tags: mobile web api
 
@@ -21,7 +24,8 @@ company-picture: |
     <img
             src="/images/ipix-landscape.png"
             alt="iPixFolio">
-
+blurb:
+    For iPixFolio, I developed a service that publishes an artist's portfolio as a semi-custom iPhone app. I launched several artist’s apps in the iTunes App Store. 
 brief-description: |
     I developed a service that publishes an artist's portfolio as a semi-custom iPhone app. I launched several artist’s apps in the iTunes App Store. 
 

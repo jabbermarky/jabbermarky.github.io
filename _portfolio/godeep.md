@@ -4,6 +4,8 @@ title: Mobile Responsive Web App for GoDeep Mobile
 subtitle: GoDeep Mobile LLC
 permalink: /portfolio/godeep/
 background-image: "/images/godeep - dashboard.png"
+description: 
+    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. Mark lead the development and launch of a mobile-responsive web application for GoDeep.  
 weight: 2015.07
 tags: mobile web api
 company-picture: |

@@ -7,6 +7,9 @@ scripts:
 
 title: Interim CTO for Domino Solutions 
 subtitle: Domino Solutions
+description: 
+    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. Mark served as Domino's interim CTO for 6 months in 2014. 
+
 permalink: /portfolio/domino/
 weight: 2014.12
 xtags: web
