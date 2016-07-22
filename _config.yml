@@ -12,6 +12,9 @@ url: "http://www.marklummus.com" # the base hostname & protocol for your site
 github_username:  jabbermarky
 timezone: America/New_York
 include: ["_pages"]
+author: marklummus
+twitter:
+  username: marklummus
 social:
   twitter: https://twitter.com/marklummus
   #github: https://github.com/<username>
