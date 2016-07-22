@@ -2,8 +2,8 @@
 layout: portfolio-index
 title: Mark Lummus - Web Application Development
 description: |
-    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. Here are some examples of web applications that he has developed. Mark is available to develop custom web applications for you. Schedule a free consultation today!
-permalink: /web-app-development/
+    Examples of web applications developed by Mark Lummus, a fractional CTO in Atlanta who develops custom web applications.
+permalink: /web-development
 
 tag: web
 intro-title: Web Applications
