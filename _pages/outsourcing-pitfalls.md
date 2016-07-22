@@ -4,7 +4,7 @@ title: Contract Software Development Services
 permalink: /software-development/
 xmenu: Contract Development
 description: |
-  Mark Lummus is an Atlanta CTO who provides fractional, interim, or on-demand CTO services. Mark knows how to reduce risks and maximize budgets using outsourcing to build software applications. Mark knows how to avoid "failure to launch" outcomes. Mark is available to develop custom software for you. Schedule a free consultation today!
+  Mark knows how to reduce risks and maximize budgets to build mobile/web applications. Get your free consultation today!
 ---
 
 {:.align-center}

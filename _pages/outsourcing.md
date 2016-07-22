@@ -6,7 +6,7 @@ permalink: /effective-outsourcing/
 sitemap: true
 menu: Effective Outsourcing
 description: |
-  Mark Lummus is an Atlanta CTO who provides fractional, interim, or on-demand CTO services. Mark has been outsourcing the development of web & mobile apps for more than 10 years. Mark is available to develop custom software for you. Schedule a free consultation today!
+    Mark can help you outsource the development of your web & mobile apps effectively. Schedule a free consultation today!
 ---
 
 ## What do I need to successfully outsource my custom software development?
