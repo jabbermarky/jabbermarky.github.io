@@ -1,0 +1,52 @@
+{%if page.title-meta %}
+    {% assign _title_meta_ = (page.title-meta | escape) %}
+{% else %}
+    {% assign _title_meta_ = (page.title | escape) | append: ' | ' | append: (site.title | escape) %}
+{% endif %}
+{% if page.description %}
+    {% assign _description_meta_ = page.description | strip_html | strip_newlines | truncate: 160 %}
+{% endif %}
+{% if page.og-image %}
+    {% assign _page_image_ = page.og-image %}
+{% else %}
+    {% assign _page_image_ = site.url | append:'/images/mark-lummus.jpg' %}
+{% endif %}
+{% assign _page_url_ = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+
+    <title>{{ _title_meta_ }}</title>
+    <meta name="description" content="{{ _description_meta_ }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ _page_url_}}">
+    <meta property="og:title" content="{{ _title_meta_ }}">
+    <meta property="og:description" content="{{ _description_meta_ }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:updated_time" content="{{ site.time }}">
+    <meta property="og:image" content="{{ _page_image_ }}">
+    <script type="application/ld+json"> 
+        {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "headline": "{{ _title_meta_ }}",
+            "description": "{{ _description_meta_ }}",
+            "url": "{{ _page_url_ }}"
+        }
+    </script>
+    <meta name="twitter:title" content="{{ _title_meta_ }}">
+    <meta name="twitter:description" content="{{ _description_meta_ }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@marklummus">
+    <meta name="twitter:creator" content="@marklummus">
+    <meta name="twitter:image" content="{{ _page_image_ }}">
+    <link rel="canonical" href="{{ _page_url_ }}">
+    {% if page.keywords-meta %}<meta name="news_keywords" content="{{ page.keywords-meta | join: ', ' }}">{% endif %}
+    {% comment %}
+    <link rel="publisher" href="https://plus.google.com/u/0/112953633004578114474"><!--for business only-->
+    <!-- for og:type article
+    <meta property="article:publisher" content="http://www.facebook.com/SearchEngineJournal"> 
+    <meta property="article:section" content="SEO 101">
+    <meta property="article:published_time" content={{page.date}}>
+    <meta property="article:modified_time" content="2015-05-04T16:49:12-04:00"> 
+    -->
+    <meta property="fb:app_id" content="951344501588419">
+    {% endcomment %}

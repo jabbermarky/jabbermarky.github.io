@@ -1,9 +1,10 @@
 --- 
 layout: portfolio 
-title: Encapsulon Assessment 
-description: 
-    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. Mark lead the development of Encapsulon Assessment, a mobile responsive web application for retail auditors while at Wren Solutions. 
+title: Encapsulon Assessment
 subtitle: Wren Solutions
+description: 
+    "Responsive web app for retail.  Lead by Mark: Atlanta CTO who builds custom apps. Get a free consultation now!"
+
 permalink: /portfolio/assessment/
 weight: 2011.11
 tags: 

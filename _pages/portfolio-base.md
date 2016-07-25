@@ -1,4 +1,5 @@
 --- 
+published: false
 layout: portfolio 
 title: CollectorDash 
 subtitle: iPhone Application

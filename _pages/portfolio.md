@@ -1,10 +1,12 @@
 ---
 layout: portfolio-index
-title: Mark Lummus - Portfolio
+title: Project Portfolio
 description: |
-    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. His overall portfolio demonstrates the breadth/depth of experience leading the design, development, and launch of sophisticated software applications. Mark is available to develop software for you. Schedule a free consultation today!
+    Project portfolio of Mark Lummus, a fractional CTO in Atlanta who develops custom mobile/web apps. Call today! 
+
 menu:  Portfolio
 permalink: /portfolio/
+keywords-meta: custom application development, custom app development, fractional CTO, interim CTO
 
 intro-title: General Portfolio
 intro-description: |

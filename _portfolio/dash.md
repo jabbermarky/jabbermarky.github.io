@@ -3,13 +3,12 @@ layout: portfolio
 title: CollectorDASH
 subtitle: Custom iPhone Application
 description: 
-    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. For CollectorDASH, Mark built a custom iPhone app that allows CollectorDASH users interact with their collection on their mobile device.  
- 
+    "CollectorDASH iPhone app built by Mark: Atlanta CTO who builds custom apps. Get a free consultation now!"
+     
 permalink: /portfolio/dash/
 weight: 2013.05
 tags: mobile
 background-image: "/images/mac-small.jpg"
-published: true
 styles:
     - name:     "/css/lightbox.min.css"
 scripts:

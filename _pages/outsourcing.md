@@ -5,13 +5,18 @@ subtitle: How to Outsource Software Development Successfully
 permalink: /effective-outsourcing/
 sitemap: true
 menu: Effective Outsourcing
+keywords-meta: CTO, Fractional CTO, consultant, software development services, outsourcing, outsourcing management
 description: |
-    Mark can help you outsource the development of your web & mobile apps effectively. Schedule a free consultation today!
+    Outsource the development of your web/mobile apps more effectively. Ask how in a free consultation today!
+summary:
+    style: style3
+    text: |
+        **If you are considering outsourcing your software product, please talk to me first. I can help you build a hybrid team of local and remote developers that will deliver a successful outcome.**
 ---
 
-## What do I need to successfully outsource my custom software development?
+## How can I successfully outsource my custom software development?
 
-If you are new to outsourced software development, then you may be asking yourself how to most effectively use outsourcing to meet your business objectives. The short answer seems to be that outsourcing software development has become less effective and desirable than it used to be, but it can still be useful if you effectively adhere to some best practices and avoid the typical problems associated with outsourcing. More than anything else, this  means making sure you: 
+If you are new to outsourced software development, then you may be asking yourself how to most effectively use outsourcing to meet your business objectives. The short answer seems to be that outsourcing software development has become less effective and desirable than it used to be, but it can still be useful if you effectively adhere to some best practices and avoid the typical problems associated with outsourcing. More than anything else, this means making sure you: 
 
 * have total control of the teams;
 * can establish and execute a vision;
@@ -21,8 +26,15 @@ The following analysis is broken down into **"PROBLEMS WITH OUTSOURCING"**, **"D
 
 ### PROBLEMS WITH OUTSOURCING
 
-Outsourcing remains a fairly popular option. The biggest advantage of outsourcing is that it can take advantage of low-cost labor. In 2001,  it was possible to outsource a project to Ukrainian developers for $300/month, but simultaneously "sell their time" to customers for $15/hour, creating profit margins of up to $2200/month. Yet today, the same software developers could only be hired for about $4000/month, substantially reducing the outsourcer's profit margin. To highlight another example, Chinese labor costs rose  10% in 2015.  In other words, software outsourcing, and outsourcing in general, has become so much less advantageous for the simple reason that it costs so much more than it used to. Moreover, there are often "hidden costs" or other drawbacks that can make the process of outsourcing inefficient and risky. For example, even if outsourcing a project costs less than in-house development, you might still lose money if these offshore workers are inexperienced or unproductive. 
-Other problems to think about include extra management costs from having to manage offshore teams, difficulties in communication from differences in culture or language, and loss of control over the product and the development process. I highlight these various issues, not to discourage you from including outsourcing in your business plan, but to give you a better context for understanding the risks associated with, and how to best utilize it. This brings me to the next two sections, which will be a list of do's and dont's with some analysis and explanation. 
+Outsourcing remains a fairly popular option. The biggest advantage of outsourcing is that it can take advantage of low-cost labor. In 2001,  it was possible to outsource a project to Ukrainian developers for $300/month, but simultaneously "sell their time" to customers for $15/hour, creating profit margins of up to $2200/month. 
+
+Yet today, the same software developers could only be hired for about $4000/month, substantially reducing the outsourcer's profit margin. To highlight another example, Chinese labor costs rose  10% in 2015.  
+
+In other words, software outsourcing, and outsourcing in general, has become so much less advantageous for the simple reason that it costs so much more than it used to. Moreover, there are often "hidden costs" or other drawbacks that can make the process of outsourcing inefficient and risky. For example, even if outsourcing a project costs less than in-house development, you might still lose money if these offshore workers are inexperienced or unproductive. 
+
+Other problems to think about include extra management costs from having to manage offshore teams, difficulties in communication from differences in culture or language, and loss of control over the product and the development process. I highlight these various issues, not to discourage you from including outsourcing in your business plan, but to give you a better context for understanding the risks associated with, and how to best utilize it. 
+
+This brings me to the next two sections, which will be a list of do's and dont's with some analysis and explanation. 
 
 ### DO's  FOR SOFTWARE OUTSOURCING
 Here are a few best practices for outsourcing your software development.
@@ -60,8 +72,6 @@ Here are a few things to avoid when outsourcing.
 As you can see, there are many risks associated with outsourcing; however it can be useful and lucrative if executed properly. More than anything else, this means communicating effectively with your offshore team, and making sure they understand your vision. The SCRUM methodology can be a very effective way of achieving these goals. 
 
 This is why I suggest that those business leaders not familiar with outsourcing software development find an experienced outsourcing manager to help them manage the entire process to ensure a successful product outcome.
-
-**If you are considering using contract software developers to build your custom software product, please talk to me first. I will help you build a hybrid team of local and remote developers that will deliver a successful outcome.**
 
 {% comment %}
 <header class="xwrapper major align-center">

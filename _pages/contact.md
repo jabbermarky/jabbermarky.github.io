@@ -3,8 +3,9 @@ layout: page-no-cta
 title: Contact
 menu:  Contact
 permalink: /contact/
+keywords-meta: CTO, Fractional CTO, consultant, software development services, free consultation
 description: |
-    Did you know that Mark provides free consultations? Got an app idea? Need an on-demand CTO? Call Mark today!
+    Did you know that Mark provides free consultations? Got an app idea? Need a CTO/app/MVP? Call Mark today!
 ---
 <div class="row">
     <div class="6u 12u$(medium)">

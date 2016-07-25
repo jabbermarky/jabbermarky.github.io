@@ -1,9 +1,10 @@
 ---
 layout: portfolio-index
-title: Mark Lummus - Mobile Application Development
+title: Mobile Application Development
 description: |
     Examples of mobile apps developed by Mark Lummus, a fractional CTO in Atlanta who develops custom mobile apps.
 permalink: /mobile-development
+keywords-meta: custom mobile application, custom mobile app
 
 tag: mobile
 intro-title: Mobile App Portfolio

@@ -1,9 +1,11 @@
 ---
 layout: portfolio-index
-title: Mark Lummus - Web Application Development
+title: Web Application Development
 description: |
-    Examples of web applications developed by Mark Lummus, a fractional CTO in Atlanta who develops custom web applications.
+    Examples of web apps built by Mark Lummus, a fractional CTO in Atlanta who develops custom web applications.
+
 permalink: /web-development
+keywords-meta: custom web application, custom web app
 
 tag: web
 intro-title: Web Applications

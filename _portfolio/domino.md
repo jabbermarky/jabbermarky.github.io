@@ -1,17 +1,18 @@
 --- 
 layout: portfolio 
+title: Interim CTO for Domino Solutions 
+subtitle: Domino Solutions
+description: 
+    Domino's interim CTO in 2014. Mark provides fractional CTO services in Atlanta. Get a free consultation now!
+      
+permalink: /portfolio/domino/
+weight: 2014.12
+
 styles:
     - name:     "/css/lightbox.min.css"
 scripts:
     - name:     "/js/lightbox.min.js"
 
-title: Interim CTO for Domino Solutions 
-subtitle: Domino Solutions
-description: 
-    Mark Lummus provides fractional/interim/on-demand CTO services in Atlanta. Mark served as Domino's interim CTO for 6 months in 2014. 
-
-permalink: /portfolio/domino/
-weight: 2014.12
 xtags: web
 background-image: "/images/domino1.png"
 company-name: Domino Solutions

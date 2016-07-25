@@ -1,18 +1,15 @@
 --- 
-published: true
-
 layout: portfolio 
+title: Portfolio Publisher for Photographers 
+subtitle: iPixFolio
+description: 
+    Artist's mobile portfolio app built by Mark, Atlanta CTO who builds custom apps. Get a free consultation now!
+
+permalink: /portfolio/ipixfolio/
 styles:
     - name:     "/css/lightbox.min.css"
 scripts:
     - name:     "/js/lightbox.min.js"
-
-title: Portfolio Publisher for Photographers 
-subtitle: iPixFolio
-permalink: /portfolio/ipixfolio/
-description: 
-    iPixFolio is an artist portfolio publishing solution comprised of a web & mobile application. It was developed by Mark Lummus, a fractional CTO in Atlanta who develops custom software.
- 
 weight: 2010.07
 tags: mobile web api
 

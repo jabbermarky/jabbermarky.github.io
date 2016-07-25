@@ -3,8 +3,13 @@ layout: page
 title: Contract Software Development Services
 permalink: /software-development/
 xmenu: Contract Development
+keywords-meta: CTO, Fractional CTO, consultant, software development services, outsourcing, outsourcing management
 description: |
-  Mark knows how to reduce risks and maximize budgets to build mobile/web applications. Get your free consultation today!
+  Reduce risks & maximize budgets when outsourcing mobile/web application development. Ask me how!
+summary:
+  style: style3
+  text: |
+      **If you are considering using contract software developers to build your product, please talk to me first. I will help  you build a hybrid team of local and remote developers that will deliver a successful outcome.**
 ---
 
 {:.align-center}
@@ -38,5 +43,4 @@ I can tell you about Mike, who followed my advice and launched his version 1 pro
 
 I can tell you about my time at Nokia, where I reduced our device software testing time from 30 days to 2 days.
 
-**If you are considering using contract software developers to build your product, please talk to me first. I will help  you build a hybrid team of local and remote developers that will deliver a successful outcome.**
 
