@@ -8,6 +8,22 @@ description: |
   Hire Mark as your CTO: build/scale a team, build MVP/web/mobile app. Schedule a free consultation today!
 ---
 
+## I have broad experience.
+
+I have been producing commercial-grade software products for 30 years. In those years, I have learned what it takes to ship a new product. 
+
+I've worked in a variety of positions: software developer, project manager, product manager, business development manager, QA manager. I've run big teams and small including running times of outsourced contractors distributed globally and domestically.
+
+I've produced software for:
+
+* helicopter auto-pilot systems
+* medical devices
+* personal computer motherboards (BIOS)
+* mobile devices (IOS, PalmOS, Windows Mobile, Symbian)
+* Windows desktops
+* internet browsers
+* linux servers
+
 ## I focus on outcomes.
 
 What outcomes are you focusing on? If you are in the business of producing and selling a software product, then you are focused on getting your product into your customer's hands.
@@ -23,15 +39,4 @@ When you hire me, you're not hiring a huge company of people. I run with low ove
 ## I build needs-based teams.
 I build virtual teams based on what is needed by the client. Rather than trying to make every product use the same team, I build the team based on the needs of the client.
 
-## I have broad experience.
-
-I have been producing commercial-grade software products for 30 years. In those years, I have learned what it takes to ship a new product. I've produced software for:
-
-* helicopter auto-pilots
-* medical devices
-* personal computer motherboards (BIOS)
-* mobile devices (custom, PalmOS, Windows Mobile, Symbian, IOS)
-* Windows desktops
-* internet browsers
-* linux servers
 
