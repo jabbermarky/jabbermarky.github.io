@@ -7,6 +7,14 @@ keywords-meta: CTO, Fractional CTO, consultant, software development services, f
 description: |
     Did you know that Mark provides free consultations? Got an app idea? Need a CTO/app/MVP? Call Mark today!
 ---
+Got an idea for an app? Need to build an MVP or a prototype or a version 1 product? Need a CTO?
+
+Give me a call or send me a message today. 
+
+I provide a free consultation for new client projects. Let's talk about your specific needs. I can help you put together a plan to achieve the outcomes you want to achieve. 
+
+Let's talk!
+
 <div class="row">
     <div class="6u 12u$(medium)">
         <h4>Contact Me</h4>
