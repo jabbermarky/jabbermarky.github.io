@@ -46,10 +46,10 @@ brief-description: |
 
     <div class="inner align-center">
         <a class="lightbox-link" href="/images/domino1_vcnzjf_c_scale,w_1400.png" data-lightbox="example-set" data-title="Domino Measure Dashboard">
-            <img class="example-image" src="/images/domino1_vcnzjf_c_scale,w_320.png" alt=""/>
+            <img class="example-image" src="/images/domino1_vcnzjf_c_scale,w_260.png" alt=""/>
         </a>
         <a class="lightbox-link" href="/images/domino2_pdnuh4_c_scale,w_1400.png" data-lightbox="example-set" data-title="Domino Projections Dashboard">
-            <img class="example-image" src="/images/domino2_pdnuh4_c_scale,w_320.png" alt="" />
+            <img class="example-image" src="/images/domino2_pdnuh4_c_scale,w_260.png" alt="" />
         </a>
     </div>
     

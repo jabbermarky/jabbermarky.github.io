@@ -49,6 +49,6 @@ Let's talk!
         <p>StrongBox West<br/>
         1040 W. Marietta Street NW<br/>
         Atlanta, GA 30318</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.0734963978675!2d-84.42372748375477!3d33.78460018067971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f504c72ad33089%3A0x267b88fdc9e07b85!2s1040+West+Marietta+St+NW%2C+Atlanta%2C+GA+30318!5e0!3m2!1sen!2sus!4v1467919833759" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.0734963978675!2d-84.42372748375477!3d33.78460018067971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f504c72ad33089%3A0x267b88fdc9e07b85!2s1040+West+Marietta+St+NW%2C+Atlanta%2C+GA+30318!5e0!3m2!1sen!2sus!4v1467919833759" class="contact-map" xwidth="260" xheight="260" xframeborder="0" xstyle="border:0" allowfullscreen></iframe>
     </div>
 </div>

@@ -38,6 +38,9 @@ brief-description: |
         <a class="lightbox-link" href="/images/pix-web-home,full.png" data-lightbox="example-set" data-title="Portfolio Publisher Web App - Home">
             <img class="example-image" src="/images/pix-web-home,thumb.png" alt=""/>
         </a>
+    </div>
+    <br />
+    <div class="inner align-center">
         <a class="lightbox-link" href="/images/pix-web-gallery,full.png" data-lightbox="example-set" data-title="Portfolio Publisher Web App - Gallery">
             <img class="example-image" src="/images/pix-web-gallery,thumb.png" alt=""/>
         </a>
@@ -54,6 +57,8 @@ brief-description: |
         <a class="lightbox-link" href="/images/pix-dw-home,full.png" data-lightbox="example-set" data-title="Portfolio Publisher iPhone App - Home">
             <img class="example-image" src="/images/pix-dw-home,thumb.png" alt=""/>
         </a>
+    </div>
+    <div class="inner align-center">
         <a class="lightbox-link" href="/images/pix-dw-gallery-index,full.png" data-lightbox="example-set" data-title="Portfolio Publisher iPhone App - Gallery">
             <img class="example-image" src="/images/pix-dw-gallery-index,thumb.png" alt=""/>
         </a>

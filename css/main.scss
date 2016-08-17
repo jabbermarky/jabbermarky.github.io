@@ -35,6 +35,20 @@ $baseurl: '{{ site.baseurl }}/images';
 
 /* Basic */
 
+	/* AML */
+	.contact-map {
+		width: 400px;
+		height: 300px;
+		frameborder: 0;
+		border: 0;
+	}
+
+@include breakpoint(small) {
+	.contact-map {
+		width: 260px;
+		height: 260px;
+	}
+}
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -643,7 +657,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			img.icon {
 				@include breakpoint(small) {
-					height:60px;
+					max-height:60px;
+					max-width:260px;
 				}
 			}
 		}
