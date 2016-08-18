@@ -27,25 +27,41 @@ I am a seasoned technology leader having managed large teams of software develop
 {:.align-center}
 ## My Back Story
 
-For me, the Lemonade Stand holds a special significance: a lemonade stand helped me get my start in producing Computer Software. 
 
-I went to High School in Griffin, Georgia, a small town of approximately 30,000 people in central Georgia in the early 1980’s – before the public Internet, before Google, and way before coding boot camps.
+For me, the Lemonade Stand holds a special significance: a lemonade stand helped me get my start as a computer programmer. 
+
+I went to High School in Griffin, Georgia, a small town of approximately 23,000 people in central Georgia in the early 1980’s – before the public Internet, before Google, and way before coding boot camps.
 
 For some unknown reason to me, there was an Apple II computer in a book storage room next to one of my classrooms. I was fortunate in that I could go in there to play around on that Apple II. 
 
 The Apple II shipped with a few things in the box: a user manual, a few programs including a simulation game called Lemonade Stand, and a Basic Language Programming manual. 
 
-The Lemonade Stand game was simple: determine the optimal amount of lemonade to produce each day based on what I thought the weather conditions would be for that day – produce enough and you make a profit; produce too much and you lose money. The game was really entertaining. It had graphics and animations and really good music (for the time).  I played the game a few times.
+The Lemonade Stand game was simple: determine the optimal amount of lemonade to produce each day based on what you think the weather conditions would be for that day – produce enough and you make a profit; produce too much and you lose money. The game was really entertaining. It had graphics and animations and really good music (for the time).  I played the game a few times.
  
-But the game was just the start. The Basic Language Programming manual that was included is how I learned to program. I studied the manual and learned the language and started writing my own programs. I was really into creating my own games, especially space games (I had recently seen Star Wars in the theatre). I figured out how to animate graphics using sprites, now I need some music and sound effects.
+<div class="box alt">
+    <div class="row uniform 50%">
+        <div class="12u"><span class="image fit"><a title="By Self (Screenshot from AppleWin emulator) [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ALemonade_Stand_1.png"><img width="512" alt="Lemonade Stand 1" src="https://upload.wikimedia.org/wikipedia/commons/7/71/Lemonade_Stand_1.png"/></a></span></div>
+    </div>
+    <h5>Lemonade Stand Screenshot</h5>
+</div>
+But the game was just the start. The Basic Language Programming manual that was included is how I learned to program. I studied the manual and learned the language and started writing my own programs. I was really into creating my own games, especially space games (I had recently seen Star Wars in the theatre). I figured out how to animate graphics using sprites, so I turned my attention to producing music and sound effects.
 
 I tried reproducing the music from the Lemonade Stand in my own Basic programs, but I was unable to do so. What I got sounded nothing like what I heard in the game – it was too slow and just plain awful! So, I studied the game’s source code (it was included) to learn how the game did it. 
 
 It turns out that the game authors were very clever and very knowledgeable about microprocessors.  They were not using the Basic language to play the music, but were instead using the native language of the microprocessor to do it, the native instruction set, the so - called Machine Code. So I dug in a little further, and decoded the machine code of the microprocessor (without any information on the microprocessor) and figured out how to reproduce the music myself.  
 
+<div class="box alt">
+    <div class="row uniform 50%">
+        <div class="12u"><span class="image fit">
+        <a title="By Vadimr (Own work (Own screenshot)) [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AApple_II_Monitor.png"><img width="512" alt="Apple II Monitor" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Apple_II_Monitor.png"/></a>
+        </span></div>
+    </div>
+    <h5>Apple II Monitor Screenshot</h5>
+</div>
+
 Now, once I learned about machine code, the Basic Language was boring and slow by comparison. There was this other world that I had discovered hidden in the Lemonade Stand. I was in on a secret trick of how to make really great software. This experience opened my eyes to what was possible with a simple computer, and I never thought about computers the same after that. 
 
-Fast forward to 1987 when I was a computer science student at Georgia Tech. I was taking an Artificial Intelligence class and the professor mentioned some computing problem that was hard. I muttered under my breath about having solved the problem on my personal computer in my spare time. Someone nearby overheard me make my cheeky remarks and stopped me after class to ask me about. It turns out that my eavesdropper was Doug Armstrong, a student entrepreneur who had started a product design company at the Advanced Technology Development Center (ATDC). He invited me over to his office to show off some of the projects they were working on and he offered me a programming job on the spot! So there I was – a college sophomore getting paid a salary to write software using what I learned by playing and hacking the Lemonade Stand game.
+Fast forward to 1987 when I was a computer science student at Georgia Tech. I was taking an Artificial Intelligence class and the professor mentioned some computing problem that was hard. I muttered under my breath about having solved the problem on my personal computer in my spare time. Someone nearby overheard me make my cheeky remarks and stopped me after class to ask me about it. It turns out that my eavesdropper was Doug Armstrong, a student entrepreneur who had started a product design company at the Advanced Technology Development Center (ATDC) at Georgia Tech. He invited me over to his office to show off some of the projects they were working on and he offered me a programming job on the spot! So there I was – a college sophomore getting paid a salary to write software using what I learned by playing and hacking the Lemonade Stand game.
 
 If you’re curious, and want to try your luck at Lemonade Stand, you can play it here: [Lemonade Stand Online][lemonade-stand]. 
 
