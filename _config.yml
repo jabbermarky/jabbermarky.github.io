@@ -36,7 +36,7 @@ social:
   #digg:
   #soundcloud:
   #deviantart:
-  #angellist: https://angel.co/marklummus
+  angellist: https://angel.co/mark-marklummus-com
   #tumblr-square:
   #stackexchange:
   #weibo:
@@ -66,6 +66,6 @@ gems:
   - jekyll-seo-tag
 collections:
   portfolio:
-    output: true 
+    output: true
     title: Portfolio
     permalink: /portfolio/:path/
