@@ -10,11 +10,11 @@ description: |
 
 ## I have broad experience.
 
-I have been producing commercial-grade software products for 30 years. In those years, I have learned what it takes to ship a new product. 
+I have been producing commercial-grade software products for 30 years. In those years, I have learned what it takes to ship a new product.
 
-I've worked in a variety of positions: software developer, project manager, product manager, business development manager, QA manager. I've run big teams and small including running times of outsourced contractors distributed globally and domestically.
+I've worked in a variety of positions: software developer, project manager, product manager, business development manager, QA manager. I've run big teams and small including running teams of outsourced contractors distributed globally and domestically.
 
-I've produced software for:
+I've produced <a href="/portfolio/">software</a> for:
 
 * helicopter auto-pilot systems
 * medical devices
@@ -34,9 +34,7 @@ I focus on what's required to get the product out the door. This requires carefu
 
 ## I run lean.
 
-When you hire me, you're not hiring a huge company of people. I run with low overhead, so you're not paying indirectly for a lot of people that won't add any value to your product. 
+When you hire me, you're not hiring a huge company of people. I run with low overhead, so you're not paying indirectly for a lot of people that won't add any value to your product.
 
-## I build needs-based teams.
-I build virtual teams based on what is needed by the client. Rather than trying to make every product use the same team, I build the team based on the needs of the client.
-
-
+## I build teams based on needs.
+I build <a href="/effective-outsourcing/" title="Effective Outsourcing">virtual teams</a> based on what is needed by the client. Rather than trying to make every product use the same team, I build the team based on the needs of the client.

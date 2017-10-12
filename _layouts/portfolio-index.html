@@ -18,7 +18,7 @@ layout: landing
         background-position: center top;
         background-size: 100%;
     }
-    
+
     @media screen and (min-width: 68.75em) {
         #main > header {
             background-image: -moz-linear-gradient(top,
@@ -66,7 +66,7 @@ layout: landing
         }
     }
     </style>
-    {% endif %} 
+    {% endif %}
 
     {% if page.intro-description %}
     <!-- intro-description -->
@@ -91,7 +91,7 @@ layout: landing
                 <h2>Examples of my work</h2>
             {% endif %}
             </header>
-{% assign sorted_entries = (site.portfolio | sort: 'weight') | reverse %}
+{% assign sorted_entries = site.portfolio | sort: 'weight' | reverse %}
 {% for entry in sorted_entries %}
     {% if page.tag %}
         {% if entry.tags contains page.tag %}
@@ -104,7 +104,7 @@ layout: landing
                 <p>{{entry.blurb | markdownify}}</p>
                 {% else %}
                 <p>{{entry.company-description | markdownify}}</p>
-                {% endif %}                
+                {% endif %}
                 </a>
             </div>
             <div class="image">
@@ -113,7 +113,7 @@ layout: landing
         </section>
         <!-- portfolio entry ends -->
         {% endif %}
-    {% else %} 
+    {% else %}
     <!-- portfolio entry begins -->
     <section class="spotlight">
         <div class="content">
@@ -123,7 +123,7 @@ layout: landing
             <p>{{entry.blurb | markdownify}}</p>
             {% else %}
             <p>{{entry.company-description | markdownify}}</p>
-            {% endif %}                
+            {% endif %}
             </a>
         </div>
         <div class="image">

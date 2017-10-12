@@ -3,10 +3,10 @@
 
 # Site settings
 title: Mark Lummus
-subtitle: Atlanta Fractional CTO to non-technical founders and emerging businesses
+subtitle: Providing Product and Technology Leadership to non-technical founders and emerging businesses in Atlanta
 xsite_name: Mark Lummus
 owner: Mark Lummus # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+first_published: 2017 # if migrating another site, the year of your first publish
 email: mark@marklummus.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.marklummus.com" # the base hostname & protocol for your site
@@ -36,7 +36,7 @@ social:
   #digg:
   #soundcloud:
   #deviantart:
-  #angellist: https://angel.co/marklummus
+  angellist: https://angel.co/mark-marklummus-com
   #tumblr-square:
   #stackexchange:
   #weibo:
@@ -61,11 +61,12 @@ social:
 markdown: kramdown
 sass:
   style: compressed
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 collections:
   portfolio:
-    output: true 
+    output: true
     title: Portfolio
     permalink: /portfolio/:path/
+github: [metadata]
