@@ -4,7 +4,8 @@ title: Project Portfolio
 description: |
     Project portfolio of Mark Lummus, a fractional CTO in Atlanta who develops custom mobile/web apps. Call today!
 
-menu:  Portfolio
+menu:  Mark's Portfolio
+weight: 50
 permalink: /portfolio/
 keywords-meta: custom application development, custom app development, fractional CTO, interim CTO
 

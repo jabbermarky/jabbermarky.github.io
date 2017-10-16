@@ -1,7 +1,8 @@
 ---
 layout: page-no-cta
 title: Contact
-menu:  Contact
+menu:  Contact Mark
+weight: 100
 permalink: /contact/
 keywords-meta: CTO, Fractional CTO, consultant, software development services, free consultation
 description: |

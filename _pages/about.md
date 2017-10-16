@@ -6,7 +6,8 @@ description: |
   Learn about Mark's 30 years career in prof. software development in Atlanta. Get a free consultation today!
 
 permalink: /about/
-menu: About
+menu: About Mark
+weight: 10
 ---
 
 <span class="image left"><img src="/images/mark-lummus.jpg" alt="Mark Lummus" /></span>I have been working in the software industry in Atlanta for 30+ years in a variety of positions, spanning all aspects of producing and marketing software products and services, including product management, software engineering, quality, automation, DevOps, and business development. My strengths intersect with mobile and web technologies.

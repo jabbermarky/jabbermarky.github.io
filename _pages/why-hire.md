@@ -3,6 +3,7 @@ layout: page
 title: Why Hire Mark?
 permalink: /why-hire/
 menu: Why Hire Mark?
+weight: 80
 keywords-meta: fractional CTO, CTO, MVP
 description: |
   Hire Mark as your CTO: build/scale a team, build MVP/web/mobile app. Schedule a free consultation today!

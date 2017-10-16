@@ -9,13 +9,13 @@ description: |
 summary:
   style: style3
   text: |
-      **If you are considering using contract software developers to build your product, please talk to me first. I will help  you build a hybrid team of local and remote developers that will deliver a successful outcome.**
+      If you are considering using contract software developers to build your product, please talk to me first. I will help  you build a hybrid team of local and remote developers that will deliver a successful outcome.
 ---
 
 {:.align-center}
 ## Before you hire a software development company,<br /> talk to me.
 
-If you talk to me, I will tell you about Rochelle, who spent $100K on contract software developers to build a new software product, and could not ship it because it was not what she asked for. 
+If you talk to me, I will tell you about Rochelle, who spent $100K on contract software developers to build a new software product, and could not ship it because it was not what she asked for.
 
 You can ask me about Joe, whose contract developer could not finish the job.
 
@@ -34,13 +34,11 @@ As a business owner, "failure to launch" is the worst possible outcome. If you d
 
 Talk to me about how I build software products. I'll tell you about:
 
- * how I use *Lean Startup* techniques to formulate hypotheses about your target market and then test those hypotheses; 
- * how I use *Agile Methodologies* to build software iteratively; 
- * how I use *strategic outsourcing* to deliver marketable software reliably and quickly within a reasonable budget using contracted resources; 
- * how I avoid *failure to launch*. 
+ * how I use *Lean Startup* techniques to formulate hypotheses about your target market and then test those hypotheses;
+ * how I use *Agile Methodologies* to build software iteratively;
+ * how I use *strategic outsourcing* to deliver marketable software reliably and quickly within a reasonable budget using contracted resources;
+ * how I avoid *failure to launch*.
 
 I can tell you about Mike, who followed my advice and launched his version 1 product into the market on time.
 
 I can tell you about my time at Nokia, where I reduced our device software testing time from 30 days to 2 days.
-
-
