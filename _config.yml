@@ -70,3 +70,5 @@ collections:
     title: Portfolio
     permalink: /portfolio/:path/
 github: [metadata]
+include:
+  - "analytics.txt"
