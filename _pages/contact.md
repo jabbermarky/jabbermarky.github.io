@@ -1,6 +1,6 @@
 ---
 layout: page-no-cta
-title: Contact
+title: Contact Mark
 menu:  Contact Mark
 weight: 100
 permalink: /contact/
@@ -8,11 +8,14 @@ keywords-meta: CTO, Fractional CTO, consultant, software development services, f
 description: |
     Did you know that Mark provides free consultations? Got an app idea? Need a CTO/app/MVP? Call Mark today!
 ---
-Got an idea for an application? Do you need to build an MVP or a prototype or a version 1 product? Need a CTO? Do you need help with a go to market strategy for your product? I may be able to apply my experience building and launching software products to help you build and launch yours.
+Got an idea for an application? Do you need help kickstarting product management
+in your organization? Do you need help with a go to market strategy for your
+product? I may be able to apply my experience building and launching software
+products to help you build and launch yours.
 
 Give me a call or send me a message today.
 
-I provide a free consultation for new client projects. Let's talk about your specific needs. I can help you put together a plan to achieve the outcomes you want to achieve.
+I provide a free consultation for new client projects. Let's talk about your specific needs.
 
 Let's talk!
 
