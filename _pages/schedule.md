@@ -1,8 +1,9 @@
 ---
+published: false
 layout: page-no-cta
 title: Schedule a Consultation Meeting
-permalink: /schedule/
-menu: Schedule a Meeting
+xpermalink: /schedule/
+xmenu: Schedule a Meeting
 weight: 200
 keywords-meta: fractional CTO, CTO, free consultation
 description: |
