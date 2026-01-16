@@ -3,7 +3,7 @@
 
 # Site settings
 title: Mark Lummus
-subtitle: Providing Product and Technology Leadership to non-technical founders and emerging businesses in Atlanta
+subtitle: Product and Technology Leader in Atlanta
 xsite_name: Mark Lummus
 owner: Mark Lummus # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
@@ -17,11 +17,11 @@ author: marklummus
 twitter:
   username: marklummus
 social:
-  twitter: https://twitter.com/marklummus
+  #twitter: https://twitter.com/marklummus
   #github: https://github.com/<username>
   linkedin-square: https://linkedin.com/in/marklummus
   #facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+marklummus
+  #google-plus-square: https://plus.google.com/u/0/+marklummus
   email: /contact/
   #flickr:
   #instagram:
@@ -36,7 +36,7 @@ social:
   #digg:
   #soundcloud:
   #deviantart:
-  angellist: https://angel.co/mark-marklummus-com
+  #angellist: https://angel.co/mark-marklummus-com
   #tumblr-square:
   #stackexchange:
   #weibo:
